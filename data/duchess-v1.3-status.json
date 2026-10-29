@@ -1,0 +1,49 @@
+{
+  "program": "ALTO AI Labs / Duchess",
+  "candidate": "v1.3",
+  "gpt_5_5_comparison": {
+    "experiment_lane": "P1.2B baseline calibration",
+    "records": 24,
+    "total_scoring_points": 96,
+    "duchess_v1_3": {
+      "score": 49,
+      "percent": 51.04,
+      "route_cell": {"score": 18, "denominator": 24},
+      "route_block": {"score": 18, "denominator": 24},
+      "s_exact": {"score": 7, "denominator": 24},
+      "y_exact": {"score": 6, "denominator": 24},
+      "routing_points": 36,
+      "sy_exact_matches": 13
+    },
+    "gpt_5_5": {
+      "score": 30,
+      "percent": 31.25,
+      "route_cell": {"score": 8, "denominator": 24},
+      "route_block": {"score": 8, "denominator": 24},
+      "s_exact": {"score": 7, "denominator": 24},
+      "y_exact": {"score": 7, "denominator": 24},
+      "routing_points": 16,
+      "sy_exact_matches": 14
+    }
+  },
+  "later_trained_candidate": {
+    "base_architecture": "Qwen3.5-0.8B",
+    "training": {
+      "train_records": 98,
+      "validation_records": 12,
+      "test_records": 12,
+      "epochs": 3,
+      "learning_rate": 0.00002,
+      "max_length": 4096,
+      "gradient_accumulation": 4
+    },
+    "evaluation": {
+      "validation_exact_fields": {"score": 25, "denominator": 48, "percent": 52.08},
+      "test_exact_fields": {"score": 26, "denominator": 48, "percent": 54.17},
+      "test_route_cell_block_exact": 0.8333,
+      "validation_structure_gate_passed": false,
+      "test_structure_threshold_passed": true
+    },
+    "deployment": "not promoted / no production deployment represented"
+  }
+}
