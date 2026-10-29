@@ -44,6 +44,6 @@
       "validation_structure_gate_passed": false,
       "test_structure_threshold_passed": true
     },
-    "deployment": "not promoted / no production deployment represented"
+    "lifecycle_status": "research candidate; promotion and production deployment are separate qualification milestones"
   }
 }
