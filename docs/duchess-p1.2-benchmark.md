@@ -11,7 +11,7 @@ The preserved head-to-head used **24 records** and **96 scoring points**.
 | Routing contribution | **35** | **16** |
 | Exact S/Y field matches | **14 / 48** | **14 / 48** |
 
-Difference: **+19 points / +19.79 percentage points** for Duchess on this benchmark.
+**Duchess led by 19 scoring points (+19.79 percentage points)** in this head-to-head evaluation, with **35 routing points** versus **16 for GPT-5.5**.
 
 ## Task
 
@@ -38,7 +38,7 @@ Predictions were compared with withheld reference labels using a deterministic s
 
 ## What the result says
 
-Duchess matched the benchmark's expected routing labels substantially more often than GPT-5.5. The two systems tied on combined exact S/Y matches, so the score advantage came from routing.
+**Duchess demonstrated a substantial routing advantage** against GPT-5.5 on the measured task. Routing contributed **35 points for Duchess versus 16 for GPT-5.5**. Both systems recorded **14 / 48 exact S/Y matches**.
 
 ## Reproducibility record
 
@@ -53,6 +53,6 @@ The original experiment retained:
 
 ## Scope
 
-This is a direct result on the defined structural task. It is not presented as a universal ranking of all AI capabilities.
+These results report the observed performance of both systems on the same 24-record structural task using the same scoring contract.
 
 The research question for ALTO is whether specialized process intelligence can become highly capable with materially smaller, purpose-built systems.
