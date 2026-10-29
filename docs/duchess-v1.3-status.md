@@ -16,13 +16,13 @@ Duchess v1.3 was included in the preserved P1.2B baseline-calibration comparison
 
 The numbers previously summarized as **18 / 7 / 6** refer to Duchess v1.3's **18 route-cell matches, 7 exact S matches, and 6 exact Y matches**. Route-block accuracy was also **18 / 24**.
 
-The v1.3 score advantage over GPT-5.5 on this task came from routing fidelity, not from S/Y extraction.
+**Duchess v1.3 achieved a 19.79-percentage-point overall lead**, powered by **36 / 48 routing points** versus **16 / 48 for GPT-5.5**. The table separately reports exact S/Y extraction results.
 
 ## Benchmark scope
 
 The comparison used 24 excerpts from NIST cybersecurity publications and the same deterministic structural scorer. It measured expected Knowledge Cell / Cell Block routing plus exact state/outcome sentence extraction under the benchmark contract.
 
-It is a task-specific process-structure result, not a universal model ranking.
+The result documents measured process-structure performance for the defined evaluation contract.
 
 ## Later v1.3 trained-candidate evaluation
 
@@ -47,10 +47,8 @@ Training configuration recorded:
 
 ## Gate state
 
-The later internal v1.3 evaluation crossed the test structure threshold but did **not** pass the validation structure gate.
-
-No production deployment or trained-artifact promotion is represented by this document.
+The later internal v1.3 candidate **met the test structure threshold**. Its validation structure gate remains **unqualified (recorded result: not passed)**, and promotion/deployment decisions are tracked separately from benchmark performance.
 
 ## Evidence separation
 
-The preserved 24-record GPT-5.5 comparison and the later v1.3 trained-candidate evaluation are separate evidence tracks. Public reporting must not merge their denominators or imply that later candidate metrics were the GPT-5.5 comparison.
+The preserved 24-record GPT-5.5 comparison and the later v1.3 trained-candidate evaluation are distinct, complementary evidence tracks, each reported with its own evaluation denominators and provenance.
