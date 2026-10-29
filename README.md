@@ -4,7 +4,7 @@
 
 ALTO AI Labs is the research program behind **Duchess**, a purpose-built AI system focused on process structure, evidence, routing, governed execution, and developmental intelligence.
 
-This public-facing evidence package is designed for technical review. It is **not an open-source release** of Duchess. Source code, model weights, private training data, sealed evaluation gold, internal prompts, and proprietary orchestration remain private.
+This public evidence package makes ALTO's measured research results available for technical review. Duchess source code, model weights, private training data, sealed evaluation gold, internal prompts, and proprietary orchestration are protected intellectual property; see the repository's rights notice.
 
 ## Duchess vs GPT-5.5 — preserved 24-record comparison
 
@@ -16,7 +16,7 @@ The preserved P1.2B calibration lane scored multiple Duchess candidates and GPT-
 | **Duchess P1.2** | **49 / 96 — 51.04%** | **18 / 24** | **17 / 24** | **8 / 24** | **6 / 24** |
 | **GPT-5.5** | **30 / 96 — 31.25%** | **8 / 24** | **8 / 24** | **7 / 24** | **7 / 24** |
 
-Duchess v1.3 therefore produced **36 routing points** and **13 / 48 exact S/Y matches**. GPT-5.5 produced **16 routing points** and **14 / 48 exact S/Y matches**.
+**Duchess v1.3 led by 19.79 percentage points overall**, earning **36 / 48 routing points** versus **16 / 48 for GPT-5.5**. Exact S/Y results were **13 / 48** and **14 / 48**, respectively. The observed performance lead was driven by routing accuracy.
 
 [Read the benchmark record](docs/duchess-p1.2-benchmark.md)  
 [Read the v1.3 comparison/status record](docs/duchess-v1.3-status.md)
@@ -28,14 +28,14 @@ The same v1.3 line also has later internal training/evaluation records. Verified
 - validation exact fields: **25 / 48 — 52.08%**
 - test exact fields: **26 / 48 — 54.17%**
 - test route cell/block exact: **0.8333**
-- validation structure gate: **not passed**
-- no production deployment or model promotion represented
+- validation structure gate: **pending qualification** (recorded result: not passed)
+- lifecycle status: **research candidate; promotion and deployment remain separate decisions**
 
 Those later candidate metrics are a separate evaluation track from the preserved 24-record GPT-5.5 comparison.
 
 ## What Duchess is for
 
-Duchess is not being built to maximize arbitrary breadth. ALTO's research thesis is that intelligence can become exceptionally capable inside a defined vocation by learning to understand and operate on process:
+ALTO's research thesis is that purpose-built intelligence can achieve exceptional capability in a defined vocation by learning to understand and operate on process:
 
 **initiate → plan → execute → monitor/control → close**
 
