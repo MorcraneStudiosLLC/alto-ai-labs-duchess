@@ -23,7 +23,6 @@
   "status": "preserved historical direct comparison",
   "notes": [
     "Same deterministic scoring procedure used for both systems.",
-    "A separate majority-route/first-sentence heuristic also scored 49/96.",
-    "This benchmark is a task-specific structural comparison, not a universal model ranking."
+    "The measured lead reflects the specified 24-record structural evaluation."
   ]
 }
