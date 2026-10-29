@@ -21,9 +21,9 @@ Duchess is the principal process-intelligence research program.
 
 ## Governing idea
 
-A system should not earn trust because it produces fluent output. It should earn trust by preserving evidence, authority boundaries, state, reproducibility, and controlled progression.
+ALTO builds trust through preserved evidence, clear authority boundaries, explicit state, reproducibility, and controlled progression.
 
-Earlier CL1.0 / PGM work tested governed cell-block behavior, including explicit failure states where promotion was denied even when ordinary test suites passed. That failure-aware lineage remains part of ALTO's research philosophy.
+Earlier CL1.0 / PGM work established governed cell-block behavior and independent qualification gates, carrying that evidence-centered engineering discipline into ALTO research.
 
 ## Destination
 
@@ -31,4 +31,4 @@ The ALTO program is building toward systems that can understand work as process:
 
 **Initiating → Planning → Executing → Monitoring & Controlling → Closing**
 
-This is the research destination. Individual benchmark records must be read according to the capability actually measured by that experiment.
+The program advances this direction through versioned experiments with explicit measurement contracts.
