@@ -1,0 +1,29 @@
+{
+  "program": "ALTO AI Labs / Duchess",
+  "experiment": "P1.2B",
+  "records": 24,
+  "total_scoring_points": 96,
+  "duchess": {
+    "score": 49,
+    "percent": 51.04,
+    "routing_points": 35,
+    "sy_exact_matches": 14,
+    "sy_total_fields": 48
+  },
+  "gpt_5_5": {
+    "score": 30,
+    "percent": 31.25,
+    "routing_points": 16,
+    "sy_exact_matches": 14,
+    "sy_total_fields": 48
+  },
+  "score_difference_points": 19,
+  "percentage_point_difference": 19.79,
+  "corpus": "24 excerpts from NIST cybersecurity publications",
+  "status": "preserved historical direct comparison",
+  "notes": [
+    "Same deterministic scoring procedure used for both systems.",
+    "A separate majority-route/first-sentence heuristic also scored 49/96.",
+    "This benchmark is a task-specific structural comparison, not a universal model ranking."
+  ]
+}
