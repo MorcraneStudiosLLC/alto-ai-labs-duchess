@@ -50,7 +50,6 @@ The original experiment retained:
 - withheld answers;
 - Python scorer.
 
-A separate majority-route / first-sentence heuristic also produced **49 / 96**. That control is relevant to benchmark design and future evaluation. It does not change the recorded Duchess-vs-GPT-5.5 head-to-head score.
 
 ## Scope
 
